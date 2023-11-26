@@ -31,6 +31,10 @@ line-height: 24px;
 text-decoration: none;
 }
 
+.list {
+    list-style: none;
+}
+
 .menu:hover {
     color: #404bbf;
 }
