@@ -1,8 +1,7 @@
 body {
-    font-family: "Raleway", "Roboto", sans-serif;
-    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
     background-color:  #FFF;
-    width: 1440px;
 }
 
 .logo {
@@ -11,7 +10,8 @@ body {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px; 
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 } 
@@ -26,25 +26,46 @@ font-family: "Roboto";
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
+letter-spacing: 0.02em;
 line-height: 24px; 
 text-decoration: none;
 }
+
+.menu:hover {
+    color: #404bbf;
+}
+
+.menu:focus {
+    color: #404bbf;
+}
 /* Contact */
+
+.address {
+    font-style: normal;
+}
+
 .contacts {
  color: #434455;
 font-family: "Roboto";
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
+letter-spacing: 0.02em;
 line-height: 24px; 
 text-decoration: none;
+}
+
+.contacts:hover {
+    color: #404bbf;
+}
+
+.contacts:focus {
+    color: #404bbf;
 }
 
 /* Section 1 */
 .dark-blue {
 background-color: #2E2F42;
-width: 1440px;
-height: 600px;
 }
 
 .business {
@@ -54,19 +75,27 @@ font-family: "Roboto";
 font-size: 56px;
 font-style: normal;
 font-weight: 700;
-line-height: 60px; 
+line-height: 1.07;
+letter-spacing: 0.02em; 
 }
 
 .button {
-border-radius: 4px;
+font-family: "Roboto", sans-serif;
 background: #4D5AE5;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
 color: #FFF;
 cursor: pointer;
 }
 
 .button:hover {
-    background-color: #404bbf;
+    background-color: #404BBF;
+}
+
+.button:focus {
+    color: #404BBF;
 }
 
 /* Section 2 */
@@ -92,6 +121,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 24px;
+letter-spacing: 0.02em;
 }
 
 .title {
@@ -101,6 +131,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
+letter-spacing: 0.02em;
 }
 
 /* Section 3 */
@@ -115,8 +146,13 @@ font-family: "Roboto";
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: 40px;
+line-height: 1.11;
+letter-spacing: 0.02em;
 text-transform: capitalize;
+}
+
+.image {
+background-color: #FFFFFF;
 }
 
 .people-name {
@@ -126,6 +162,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 24px;
+letter-spacing: 0.02em;
 }
 
 .profecion {
@@ -135,6 +172,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
+letter-spacing: 0.02em;
 }
 
 /* Section 4 */
@@ -149,7 +187,8 @@ font-family: "Roboto";
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: 40px;
+line-height: 1.11;
+letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 
@@ -160,6 +199,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 24px;
+letter-spacing: 0.02em;
 }
 
 .name-work {
@@ -169,12 +209,12 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
+letter-spacing: 0.02em;
 }
 
 /* Footer */
 .end {
     background-color: #2E2F42;
-    height: 312px;
 }
 
 .span-end {
@@ -183,7 +223,8 @@ font-family: "Raleway";
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 21px;
+line-height: 1.17;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
@@ -194,4 +235,5 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
+letter-spacing: 0.02em;
 }
