@@ -40,6 +40,7 @@ line-height: 24px;
 text-decoration: none;
 }
 
+/* Section 1 */
 .dark-blue {
 background-color: #2E2F42;
 width: 1440px;
@@ -68,8 +69,20 @@ cursor: pointer;
     background-color: #404bbf;
 }
 
+/* Section 2 */
 .information {
 background-color: #FFF;
+}
+
+.about {
+color: #2E2F42;
+text-align: center;
+font-family: "Roboto";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+text-transform: capitalize;
 }
 
 .text {
@@ -78,5 +91,107 @@ font-family: "Roboto";
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
+line-height: 24px;
+}
+
+.title {
+color: #434455;
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+/* Section 3 */
+.people {
+    background-color: #F4F4FD;
+}
+
+.team {
+color: #2E2F42;
+text-align: center;
+font-family: "Roboto";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+text-transform: capitalize;
+}
+
+.people-name {
+color: #2E2F42;
+font-family: "Roboto";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}
+
+.profecion {
+color: #434455;
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+/* Section 4 */
+.work {
+    background-color: #fff;
+}
+
+.portfolio {
+color: #2E2F42;
+text-align: center;
+font-family: "Roboto";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+text-transform: capitalize;
+}
+
+.app {
+color: #2E2F42;
+font-family: "Roboto";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}
+
+.name-work {
+color: #434455;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+/* Footer */
+.end {
+    background-color: #2E2F42;
+    height: 312px;
+}
+
+.span-end {
+color: #F4F4FD;
+font-family: "Raleway";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px;
+text-transform: uppercase;
+}
+
+.info {
+color: #F4F4FD;
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
 line-height: 24px;
 }
